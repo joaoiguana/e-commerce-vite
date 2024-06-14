@@ -36,7 +36,7 @@ const App = () => {
     <div>
       <h1>Parent Categories</h1>
       {data.map((parentCategory, index) => (
-        <div key={index}>{parentCategory.title}</div>
+        <div key={index}>{parentCategory.name}: {parentCategory.description}</div>
       ))}
     </div>
   );
